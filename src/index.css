@@ -1,0 +1,197 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  #hamburger{
+    display: none;
+  }
+  .active{
+    background-color: rgba(234, 169, 100, 0.438);
+    border-radius: 30px;
+    padding: 5px;
+  }
+  .navbody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .NavBar{
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbarWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(77, 73, 73, 0.854);
+    align-items: center;
+    width: 70%;
+    position: fixed;
+    margin: 5px 150px;
+    box-shadow: 0 0 0.5rem rgb(229, 229, 227);
+    z-index: 10;
+  }
+
+  .NavItems ul{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+  }
+  .NavItems li{
+    margin-right: 32px;
+  }
+  #link{
+    color: rgb(254, 253, 253);
+    transition: all 1s ease-out;
+  }
+  #link:hover{
+    color: red;
+  }
+  @media screen and (max-width:991px) {
+    .NavBar ul{
+      display: none;
+    }
+    .NavBar{
+      position: relative;
+    }
+    #hamburger{
+      display: block;
+      position: absolute;
+      right: 20px;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    #hamburger:hover{
+      color: red;
+    }
+
+  }
+  .homeWrapper{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
+  }
+  .aboutSection{
+    border: 10px solid;
+    background-color: rgba(163, 169, 169, 0.174);
+  }
+  .contact{
+    height: 100vh;
+  }
+  .about{
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .content div{
+    flex: 1 1 10rem;
+    margin: 40px 10px;
+    border: 1px solid ;
+  }
+  .about h1{
+    color: rgb(113, 99, 99);
+  }
+  span{
+    color:rgb(23, 23, 20);
+  }
+  .courseSection{
+    height: 100vh;
+    background-color: rgba(235, 232, 188, 0.317) ;
+  }
+  .iconWrapper{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .footer{
+    border-top: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 32px;
+  }
+  .personnal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .personalWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .card{
+    width: 30%;
+    text-align: center;
+  }
+  .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .path{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  span{
+    color: red;
+  }
